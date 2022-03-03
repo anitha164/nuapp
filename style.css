@@ -1,5 +1,57 @@
 .key {
    color: black;
+   
+   text-align: center;
+}
+h1 {
    font-size: 30px;
-   font-family: 'Lucida Sans';
+}
+body {
+   background-color: rgb(161, 158, 158);
+   padding: 3px;
+}
+.sec {
+   margin: 5px;
+   background-color: white;
+   height: 700px;
+   text-align: center;
+   
+}
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+}
+.list {
+   text-align: center;
+}
+
+.p5 {
+   font-style: italic;
+   text-align: center;
+}
+ul{
+  list-style-type: none;
+   background-color: black;
+   overflow: hidden;
+}
+ul li{
+   float: right;
+   text-decoration: none;
+   list-style-type: none;
+   background-color: black;
+}
+ul li a{
+   color: white;
+   padding: 14px 16px;
+   display: block;
+   text-decoration: none;
+}
+li a:hover{
+   background-color: rgb(104, 101, 101);
+   text-transform: uppercase;
+}
+.active{
+   background-color: rgb(114, 110, 110);
 }
